@@ -167,6 +167,8 @@ to create a raw HTTP web action in OpenWhisk.
 $ npm install
 $ zip -r action.zip *
 $ bx wsk action update alexa-watson action.zip --kind nodejs:6 --web raw --param-file .params
+
+bx wsk action update redis-test action.zip --kind nodejs:8
 ```
 
 ### 7. Create an Alexa skill
